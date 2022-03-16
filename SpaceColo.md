@@ -1,7 +1,7 @@
 ---
 
 title: hihi
-layout: template
+layout: Space Colonization Plus _ jana-ja.github.io
 filename: SpaceColo.md
 description: lala
 food: Pizza
