@@ -2,7 +2,7 @@
 
 title: hihi
 layout: template
-filename: index.md
+filename: SpaceColo.md
 description: lala
 food: Pizza
 
@@ -13,6 +13,6 @@ food: Pizza
 lalal
 test change
 
-##hallo freund du bist süß
+## hallo freund du bist süß
 
 test ob das jetzt geht hier ne
