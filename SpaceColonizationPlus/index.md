@@ -1,6 +1,8 @@
 ---
 
 title: hihi
+layout: template
+filename: index.md
 description: lala
 food: Pizza
 
