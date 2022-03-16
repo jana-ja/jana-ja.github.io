@@ -1,5 +1,5 @@
 ---
-
+layout: template
 title: Space Colonization Plus
 food: Pizza
 
