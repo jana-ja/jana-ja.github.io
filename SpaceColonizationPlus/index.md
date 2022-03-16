@@ -1,10 +1,8 @@
 ---
-layout: template
+
 title: Space Colonization Plus
 food: Pizza
 
 ---
 
-# this is markdown
-{{ page.food }}
-lel
+# nur jekyll theme normal

@@ -1,7 +1,7 @@
 ---
 
 title: hihi
-layout: Space Colonization Plus _ jana-ja.github.io
+layout: template
 filename: SpaceColo.md
 description: lala
 food: Pizza
@@ -9,10 +9,9 @@ food: Pizza
 ---
 
 # this is markdown
-{{ page.food }}
-lalal
-test change
 
 ## hallo freund du bist süß
 
 test ob das jetzt geht hier ne
+
+warum nimmt templat enicht css??
