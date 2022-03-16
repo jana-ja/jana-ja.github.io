@@ -1,9 +1,6 @@
 ---
 
-title: hihi
-layout: template
-filename: index.md
-description: lala
+title: Space Colonization Plus
 food: Pizza
 
 ---
