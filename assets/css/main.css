@@ -2621,7 +2621,7 @@ input, select, textarea {
 					opacity: 0.8;
 				}
 
-				.tiles article > .image:after {
+				/* .tiles article > .image:after {
 					pointer-events: none;
 					-moz-transition: opacity 0.5s ease;
 					-webkit-transition: opacity 0.5s ease;
@@ -2640,7 +2640,7 @@ input, select, textarea {
 					background-size: 100% 100%;
 					opacity: 0.25;
 					z-index: 2;
-				}
+				} */
 
 			.tiles article > a {
 				display: -moz-flex;
@@ -2706,12 +2706,11 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #ccb67a;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
-				opacity: 0.35;
+				background-color: #a77bb0;
 			}
 
 			.tiles article.style3 > .image:before {
@@ -2719,7 +2718,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #7ecaf6;
 			}
 
 			.tiles article.style5 > .image:before {
