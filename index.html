@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Phantom by HTML5 UP</title>
+		<title>Portfolio Jana Jansen</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -59,7 +59,7 @@
 									<span class="image">
 										<img src="images/pic01.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="SpaceColonizationPlus.html">
 										<h2>Space Colonization Plus</h2>
 										<div class="content">
 											<p>A programm i created for my Bachelors Thesis</p>
@@ -70,7 +70,7 @@
 									<span class="image">
 										<img src="images/pic02.jpg" alt="" />
 									</span>
-									<a href="generic.html">
+									<a href="MasterMind.html">
 										<h2>Master Mind</h2>
 										<div class="content">
 											<p>A puzzle game app developed for android</p>
@@ -196,22 +196,27 @@
 						<div class="inner">
 							<section>
 								<h2>Get in touch</h2>
-								<form method="post" action="#">
+
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display: none;" onload="if(submitted) {}"></iframe>
+
+								<form name="gform" id="gform" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdUFlANEI6iubtStWwdk_r-Asw78NHXdHZIBPlzHstnzn01YQ/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
 									<div class="fields">
 										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
+											<input type="text" name="entry.1956640320" id="entry.1956640320" placeholder="Name" />
 										</div>
 										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
+											<input type="email" name="entry.664833035" id="entry.664833035" placeholder="Email" />
 										</div>
 										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
+											<textarea name="entry.655157105" id="entry.655157105" placeholder="Message"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send" class="primary" /></li>
 									</ul>
 								</form>
+
+
 							</section>
 							<section>
 								<h2>Follow</h2>
@@ -240,6 +245,14 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<!-- form -->
+			<script type="text/javascript">var submitted=false;</script>
+			<script type="text/javascript">
+			$('#gform').on('submit', function(e) {
+			$('#gform *').fadeOut(2000);
+			$('#gform').prepend('Your submission has been processed...');
+			});
+			</script>
 
 	</body>
 </html>
